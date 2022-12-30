@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"backpack/weapons/w_models/w_quadlauncher_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+	"$surfaceprop"	"no_decal"
+	"$vertexalpha" 1
+}

@@ -1,0 +1,81 @@
+// Created by Crowbar 0.71
+
+  Compiling "w_concussion_pad_projectile.qc" ...
+    Output from compiler "D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\bin\studiomdl.exe": 
+      qdir:    "d:\steamlibrary\steamapps\sourcemods\tf2classic\custom\turbov4\models\weapons\w_models\decomp\"
+      gamedir: "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\"
+      g_path:  "w_concussion_pad_projectile.qc"
+      Building binary model files...
+      Working on "w_concussion_pad_projectile.qc"
+      SMD MODEL collection.smd
+      SMD MODEL w_concussion_pad_projectile_anims\idle.smd
+      SMD MODEL w_concussion_pad_projectile_physics.smd
+      Model has 1 convex sub-parts
+      Collision model completed.
+      ---------------------
+      writing D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models/w_concussion_pad_test.mdl:
+      bones          964 bytes (1)
+         animation       x       y       ips    angle
+             @idle    0.00    0.00 :    1.#J (  90.00) 0.0
+      animations     132 bytes (1 anims) (1 frames) [0:01]
+      sequences      220 bytes (1 seq) 
+      ik/pose        164 bytes
+      eyeballs         0 bytes (0 eyeballs)
+      flexes           0 bytes (0 flexes)
+      textures       292 bytes
+      keyvalues        0 bytes
+      bone transforms        0 bytes
+      bone flex driver       0 bytes
+      Collision model volume 117.32 in^3
+      collision        0 bytes
+      total         2072
+      ---------------------
+      writing D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models/w_concussion_pad_test.vvd:
+      vertices     27744 bytes (578 vertices)
+      tangents      9248 bytes (578 vertices)
+      total        37056 bytes
+      ---------------------
+      Generating optimized mesh "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models/w_concussion_pad_test.sw.vtx":
+      body parts:         8 bytes
+      models:            20 bytes
+      model LODs:        12 bytes
+      meshes:             9 bytes
+      strip groups:      25 bytes
+      strips:            27 bytes
+      verts:           5202 bytes
+      indices:         4008 bytes
+      bone changes:       8 bytes
+      everything:      9343 bytes
+      ---------------------
+      Generating optimized mesh "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models/w_concussion_pad_test.dx80.vtx":
+      body parts:         8 bytes
+      models:            20 bytes
+      model LODs:        12 bytes
+      meshes:             9 bytes
+      strip groups:      25 bytes
+      strips:            27 bytes
+      verts:           5202 bytes
+      indices:         4008 bytes
+      bone changes:      16 bytes
+      everything:      9351 bytes
+      ---------------------
+      Generating optimized mesh "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models/w_concussion_pad_test.dx90.vtx":
+      body parts:         8 bytes
+      models:            20 bytes
+      model LODs:        12 bytes
+      meshes:             9 bytes
+      strip groups:      25 bytes
+      strips:            27 bytes
+      verts:           5202 bytes
+      indices:         4008 bytes
+      bone changes:      16 bytes
+      everything:      9351 bytes
+      
+      Completed "w_concussion_pad_projectile.qc"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models\w_concussion_pad_test.dx80.vtx" to "D:\SteamLibrary\steamapps\sourcemods\tf2classic\custom\turbov4\models\weapons\w_models\decomp\comp\models"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models\w_concussion_pad_test.dx90.vtx" to "D:\SteamLibrary\steamapps\sourcemods\tf2classic\custom\turbov4\models\weapons\w_models\decomp\comp\models"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models\w_concussion_pad_test.mdl" to "D:\SteamLibrary\steamapps\sourcemods\tf2classic\custom\turbov4\models\weapons\w_models\decomp\comp\models"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models\w_concussion_pad_test.phy" to "D:\SteamLibrary\steamapps\sourcemods\tf2classic\custom\turbov4\models\weapons\w_models\decomp\comp\models"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models\w_concussion_pad_test.sw.vtx" to "D:\SteamLibrary\steamapps\sourcemods\tf2classic\custom\turbov4\models\weapons\w_models\decomp\comp\models"
+    CROWBAR: Moved compiled model file "D:\SteamLibrary\steamapps\sourcemods\tf2classic-beta\models\w_concussion_pad_test.vvd" to "D:\SteamLibrary\steamapps\sourcemods\tf2classic\custom\turbov4\models\weapons\w_models\decomp\comp\models"
+  ... Compiling "w_concussion_pad_projectile.qc" finished. Check above for any errors.
