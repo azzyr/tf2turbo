@@ -521,7 +521,7 @@ Made for a more offensive approach."
 				"max pipebombs decreased"
 				{
 					"attribute_class"	"add_max_pipebombs"
-					"value" 			"-7"
+					"value" 			"-4"
 				}
 				"custom projectile model"
 				{
