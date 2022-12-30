@@ -78,7 +78,7 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 			{
 				"engineer teleporter build rate multiplier"	"5"
 				"engineer dispenser build rate multiplier"	"4"
-				"engineer sentry build rate multiplier"		"1.5"
+				"engineer sentry build rate multiplier"		"2"
 			}
 			"attributes"
 			{
@@ -195,11 +195,6 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 			"max_ilevel"				"10"
 			"attributes"
 			{
-				"bleeding duration"
-				{
-					"attribute_class"	"bleeding_duration"
-					"value"				"3"
-				}
 				"add uber charge on hit"
 				{
 					"attribute_class"	"add_onhit_ubercharge"
@@ -213,7 +208,7 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 				"damage penalty"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"				"0.5"
+					"value"				"0.75"
 				}
 				"lunchbox adds minicrits"
 				{
@@ -242,7 +237,7 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 				"single wep deploy time decreased" 	
 				{
 					"attribute_class"	"mult_single_wep_deploy_time"
-					"value"				"0.75"
+					"value"				"0.67"
 				}
 				
 			}
@@ -295,7 +290,7 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 				"Reload time decreased"
 				{
 					"attribute_class"		"mult_postfiredelay"
-					"value"					"0.6"
+					"value"					"0.65"
 				}
 				"damage bonus"
 				{
@@ -711,9 +706,9 @@ Build up to 2 Jump Pads to allow your teammates to reach new heights"
             "static_attrs"
             {
                 "teleporter is jump pad"				"1"
-				"engineer teleporter build rate multiplier"	"5"
+				"engineer teleporter build rate multiplier"	"10"
 				"engineer dispenser build rate multiplier"	"4"
-				"engineer sentry build rate multiplier"		"1.5"
+				"engineer sentry build rate multiplier"		"2"
 			}
 			"attributes"
 			{
@@ -1183,7 +1178,7 @@ Some maggot in a mask bumped into me, so I beat the crap out of him and took his
 				"reload time increased hidden"					"4.7"
 				"rocket jump damage reduction"					"0.75"
 				"projectile spread angle penalty"				"5"
-				"damage penalty"								"0.67"
+				"damage penalty"								"0.60"
 				"class select override vcd"				"taunt03"		
 				"custom projectile model"					"models/weapons/of/w_quad_rocket.mdl"
 			}
@@ -1519,6 +1514,11 @@ Can deploy only one pad at a time. Enemies caught in the blast are concussed."
 			}
 			"attributes"
 			{
+                "crit mod disabled"
+                {
+                    "attribute_class"    "mult_crit_chance"
+                    "value"             "0"
+                }
 				"particle on melee hit"
 				{
 					"attribute_class"	"particle_on_melee_hit"
