@@ -22,22 +22,6 @@ Gets the job done."
 				}
 			}
 		}
-		"15"
-		{
-			"name"						"TF_WEAPON_MINIGUN"
-			"prefab"					"weapon_minigun"
-			"baseitem"					"1"
-			"item_description"			"#TF_Weapon_Minigun_Desc"
-			"model_world"				"models/weapons/w_models/w_minigun.mdl"
-			"model_player"				"models/weapons/v_models/v_minigun_heavy.mdl"
-			"attach_to_hands"			"2"
-			"static_attrs"
-			{
-				"weapon spread bonus"					"0.5"
-				"minigun spinup time decreased"			"0.8"
-				"minigun spindown time decreased"		"0.8"
-			}
-		}
 		"21"
 		{
 			"name"						"TF_WEAPON_FLAMETHROWER"
@@ -510,7 +494,7 @@ Made for a more offensive approach."
 			"attach_to_hands"			"2"
 			"static_attrs"
 			{
-				"Blast radius increased"				"1.5"
+				"Blast radius increased"				"1.25"
 			}
 			"attributes"
 			{
@@ -524,11 +508,20 @@ Made for a more offensive approach."
 					"attribute_class"	"mod_sticky_is_proxy"
 					"value" 			"1"
 				}
-
 				"sticky fizzles"
 				{
 					"attribute_class"	"mod_sticky_fizzles"
 					"value" 			"1"
+				}
+				"clip size penalty"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"				"0.5"
+				}
+				"max pipebombs decreased"
+				{
+					"attribute_class"	"add_max_pipebombs"
+					"value" 			"-7"
 				}
 				"custom projectile model"
 				{
