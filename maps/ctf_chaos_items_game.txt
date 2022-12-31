@@ -38,7 +38,7 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 			"static_attrs"
 			{
 				"maxammo primary increased"		"1.5"
-				"flame size bonus"				"1.5"
+				"damage penalty"				"0.85"
 			}
 			"visuals"
 			{
@@ -232,6 +232,10 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 			"model_player"				"models/weapons/v_models/v_flaregun_pyro.mdl"
 			"propername"				"1"
 			"attach_to_hands"			"2"
+			"static_attrs"
+			{
+				"damage bonus"			"1.1"
+			}
 			"attributes"
 			{
 				"single wep deploy time decreased" 	
@@ -767,7 +771,7 @@ Build up to 2 Jump Pads to allow your teammates to reach new heights"
 				"voice pitch scale"
 				{
 					"attribute_class"		"mult_dmg"
-					"value"					"3.33"
+					"value"					"4.16"
 				}
 				"voice pitch scale"
 				{
@@ -777,7 +781,7 @@ Build up to 2 Jump Pads to allow your teammates to reach new heights"
 				"damage penalty"
 				{
 					"attribute_class"	"voice_pitch_scale"
-					"value"				"0.75"
+					"value"				"0.85"
 				}
 				"clip size penalty"
 				{
