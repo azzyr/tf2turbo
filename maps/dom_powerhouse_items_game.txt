@@ -1847,11 +1847,6 @@ A discrete gun for undercover operations."
 					"attribute_class"	"mult_postfiredelay"
 					"value"				"0.8"
 				}
-				"damage penalty"
-				{
-					"attribute_class"	"mult_dmg"
-					"value" 			"0.85"
-				}
 				"clip size penalty"
 				{
 					"attribute_class"	"mult_clipsize"
