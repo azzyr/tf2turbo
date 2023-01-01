@@ -1455,7 +1455,7 @@ Can deploy only one pad at a time. Enemies caught in the blast are concussed."
 				"strange restriction type 1"
 				{
 					"attribute_class"	"mod_tranq_onhit"
-					"value" 			"2"
+					"value" 			"4"
 				}
 				"custom projectile model"
 				{
@@ -1594,7 +1594,7 @@ No wait, yeah I did.'"
 				"dmg penalty vs buildings"
 				{
 					"attribute_class"	"mult_dmg_vs_buildings"
-					"value" 			"0.55"
+					"value" 			"0.65"
 				}
 				// Backend stuff
 				"hand scale"																	// Mostly removes the blast radius - you have to score a direct hit for this to do anything.
