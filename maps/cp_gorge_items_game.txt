@@ -578,6 +578,11 @@ Made for a more offensive approach."
 					"attribute_class"		"effectbar_recharge_rate"
 					"value"					"0.3"
 				}
+				"heal rate penalty"
+				{
+					"attribute_class"	"mult_medigun_healrate"
+					"value"	"0.85"
+				}
 			}
 			"visuals"
 			{
@@ -1214,7 +1219,7 @@ Some maggot in a mask bumped into me, so I beat the crap out of him and took his
 			"show_in_armory"			"1"
 			"item_class"				"tf_wearable"
 			"item_type_name"			"#TF_Wearable_Boots"
-			"item_description"			"Alt-Fire: Dash! (3s cooldown)
+			"item_description"			"Alt-Fire: Dash! (5s cooldown)
 
 Time to get bluttered!"
 			"item_name"					"Chargin' Targe"
@@ -1767,25 +1772,26 @@ Use their ancient powers to claim some!
 		}
 		"1020" //Shooting Star by shualdock
 		{
-			"name"						"TF_WEAPON_SHOOTING_STAR"
+			"name"						"TF_WEAPON_CANBERRA_CARBINE"
 			"prefab"					"weapon_sniperrifle"
 			"show_in_armory"			"1"
-			"item_name"					"The Shooting Star"
-			"item_type_name"			"#TF_Weapon_SniperRifle"
+			"propername"				"1"
+			"item_name"					"Canberra Carbine"
+			"item_type_name"			"Lever-Action Rifle"
 			"item_description"			"While scoped, any damage taken is critical
 
-See ya, space camper..."
-			"item_logname"				"wish_right_now"
-			"item_iconname"				"shooting_star"
-			"image_inventory"			"backpack/workshop/weapons/c_models/c_invasion_sniperrifle/c_invasion_sniperrifle"
-			"model_world"				"models/weapons/c_models/c_invasion_sniperrifle/c_invasion_sniperrifle.mdl"
-			"model_player"				"models/weapons/c_models/c_invasion_sniperrifle/c_invasion_sniperrifle.mdl"
-			"attach_to_hands"			"1"
+Sometimes I'm able to spin flip the lever on this bugger though-- but I just can't get it right."
+			"item_logname"				"lever_carbine"
+			"item_iconname"				"lever_carbine"
+			"image_inventory"			"backpack/weapons/w_models/w_canberra_carbine"
+			"model_world"				"models/weapons/w_models/w_canberra_carbine.mdl"
+			"model_player"				"models/weapons/v_models/v_canberra_carbine_sniper.mdl"
+			"attach_to_hands"			"2"
 			"used_by_classes"
 			{
 				"sniper"				"1"
 			}
-			"attributes" //Machina reskin
+			"attributes"
 			{
 				"crit kill will gib"
 				{
@@ -1805,12 +1811,9 @@ See ya, space camper..."
 			}
 			"visuals"
 			{
-                "sound_single_shot"		"Weapon_ShootingStar.SingleCharged"
-				"sound_burst"		    "Weapon_ShootingStar.SingleCrit"
-				"sound_reload"		    "Weapon_SniperRailgun.WorldReload"
-				"sound_empty"		    "Weapon_SniperRailgun.ClipEmpty"
-				"sound_special2"		"Weapon_SniperRailgun.NonScoped"
-				"sound_special3"		"Weapon_ShootingStar.Single"
+				"sound_single_shot"		"Weapon_Canberra.Single"
+				"sound_burst"			"Weapon_Canberra.SingleCrit"
+				"sound_reload"			"Weapon_SniperRifle.WorldReload"
 				"tracer_effect"			"bullet_hunting_revolver_tracer01"
 			}
 			"mouse_pressed_sound"		"#ui/item_heavy_gun_pickup.wav"
