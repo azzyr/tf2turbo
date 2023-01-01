@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\weapons\v_sniperrifle/v_sniperrifle_scope"
+	"$basetexture"	"models/weapons/leversniper/leversniper"
 
 	"$basemapalphaphongmask" "1"
 	"$basealphaenvmapmask" "1"
@@ -27,17 +27,9 @@
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
-	"$yellow" "0"
-
 	"Proxies"
 	{
-		"AnimatedWeaponSheen"
-		{
-			"animatedtexturevar" 		"$sheenmapmask"
-			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
-			"animatedtextureframerate" 		"40"
-		}
-		"invis"
+		"weapon_invis"
 		{
 		}
 		"ModelGlowColor"
@@ -54,15 +46,34 @@
 			"srcVar1"  "$glowcolor"
 			"resultVar" "$color2"
 		}
-		"YellowLevel"
+		"CommunityWeapon"
 		{
-			"resultVar" "$yellow"
+			"resultVar" "$commweapon"
 		}
 		"Multiply"
 		{
-			"srcVar1" "$color2"
-			"srcVar2" "$yellow"
-			"resultVar" "$color2"
+			"srcVar1"  "$commweapon"
+			"srcVar2"  "$commadd_phongexponent" 
+			"resultVar" "$tempvar" 
 		}
+		"Add"
+		{
+			"srcVar1"  "$tempvar" 
+			"srcVar2"  "$basephongexponent" 
+			"resultVar" "$phongexponent" 
+		}
+		"Multiply"
+		{
+			"srcVar1"  "$commweapon"
+			"srcVar2"  "$commadd_phongboost" 
+			"resultVar" "$tempvar" 
+		}
+		"Add"
+		{
+			"srcVar1"  "$tempvar" 
+			"srcVar2"  "$basephongboost"
+			"resultVar" "$phongboost" 
+		}
+
 	}
 }
