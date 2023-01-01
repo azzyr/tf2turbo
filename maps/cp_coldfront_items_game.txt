@@ -1795,7 +1795,7 @@ Sometimes I'm able to spin flip the lever on this bugger though-- but I just can
 			{
 				"crit kill will gib"
 				{
-					"attribute_class"	"ragdolls_become_ash"
+					"attribute_class"	"voice_pitch_scale"
 					"value"				"1"
 				}
 				"headshot damage increase"
