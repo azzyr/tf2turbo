@@ -15,7 +15,7 @@
 				"voice pitch scale"
 				{
 					"attribute_class"	"upgrade_rate_mod"
-					"value"				"1.35"
+					"value"				"1.4"
 				}				
 			}
 		}
@@ -710,7 +710,7 @@ Trollgineer Physics!"
 				"voice pitch scale"
 				{
 					"attribute_class"	"upgrade_rate_mod"
-					"value"				"1.35"
+					"value"				"1.4"
 				}
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
