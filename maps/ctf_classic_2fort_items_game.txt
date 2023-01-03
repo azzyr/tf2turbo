@@ -2,6 +2,23 @@
 {
 	"items"
 	{
+		"7"
+		{
+			"name"						"TF_WEAPON_WRENCH"
+			"prefab"					"weapon_wrench"
+			"baseitem"					"1"
+			"model_world"				"models/weapons/w_models/w_wrench.mdl"
+			"model_player"				"models/weapons/v_models/v_wrench_engineer.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"upgrade_rate_mod"
+					"value"				"1.35"
+				}				
+			}
+		}
 		"14"
 		{
 			"name"						"TF_WEAPON_SNIPERRIFLE"
@@ -90,7 +107,7 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 				"voice pitch scale"
 				{
 					"attribute_class"	"mult_dispenser_rate"
-					"value"				"2.5"
+					"value"				"3"
 				}
 			}
 		}
@@ -294,7 +311,7 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 				"Reload time decreased"
 				{
 					"attribute_class"		"mult_postfiredelay"
-					"value"					"0.75"
+					"value"					"0.85"
 				}
 				"damage bonus"
 				{
@@ -413,7 +430,7 @@ Made for a more offensive approach."
 				"tranq on hit"
 				{
 					"attribute_class"	"mod_tranq_onhit"
-					"value"				"3.0"
+					"value"				"4.0"
 				}
 			}
 		}
@@ -443,7 +460,7 @@ Made for a more offensive approach."
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 6 -10"
-				"effect bar recharge rate increased"		"0.35"
+				"effect bar recharge rate increased"		"0.30"
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
@@ -689,6 +706,11 @@ Trollgineer Physics!"
 				{
 					"attribute_class"	"mult_postfiredelay"
 					"value"				"1.2"
+				}
+				"voice pitch scale"
+				{
+					"attribute_class"	"upgrade_rate_mod"
+					"value"				"1.35"
 				}
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
@@ -1708,6 +1730,11 @@ Use their ancient powers to claim some!
 					"attribute_class"	"self_mark_for_death"
 					"value"				"1"
 				}
+                "crit mod disabled"
+                {
+                    "attribute_class"    "mult_crit_chance"
+                    "value"             "0"
+                }
 			}
 			"visuals"
 			{
