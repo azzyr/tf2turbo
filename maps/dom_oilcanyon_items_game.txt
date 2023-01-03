@@ -460,7 +460,15 @@ Made for a more offensive approach."
 			"static_attrs"
 			{
 				"min_viewmodel_offset"					"10 6 -10"
-				"effect bar recharge rate increased"		"0.30"
+				"effect bar recharge rate increased"		"0.35"
+			}
+			"attributes"
+			{
+				"voice pitch scale"
+				{
+					"attribute_class"	"blast_dmg_to_self"
+					"value" 			"0.33"
+				}
 			}
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
