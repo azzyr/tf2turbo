@@ -193,7 +193,7 @@ Pushes enemies, deals self knockback, deflects projectiles and extinguishes alli
 				"ubercharge rate bonus"
 				{
 					"attribute_class"	"mult_medigun_uberchargerate"
-					"value"				"2"
+					"value"				"2.15"
 				}
 				"special taunt"
 				{
