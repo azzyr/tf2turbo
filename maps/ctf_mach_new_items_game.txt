@@ -39,6 +39,24 @@ Gets the job done."
 				}
 			}
 		}
+		"17"
+		{
+			"name"						"TF_WEAPON_SYRINGEGUN_MEDIC"
+			"prefab"					"weapon_syringegun"
+			"baseitem"					"1"
+			"item_description"			"#TF_Weapon_SyringeGun_Desc"
+			"model_world"				"models/weapons/w_models/w_syringegun.mdl"
+			"model_player"				"models/weapons/v_models/v_syringegun_medic.mdl"
+			"attach_to_hands"			"2"
+			"attributes"
+			{
+                "Projectile speed increased"
+				{
+					"attribute_class"	"mult_projectile_speed"
+					"value"				"1.25"
+				}
+			}
+		}
 		"21"
 		{
 			"name"						"TF_WEAPON_FLAMETHROWER"
@@ -1401,7 +1419,7 @@ Some ol' Texan engineering here and some plasma there, goes a mighty long ways."
 			{
 				"override projectile type"				"32"
 				"mod max primary clip override"			"-1"
-				"damage bonus hidden"					"16.6"
+				"damage bonus hidden"					"14.95"
 				"hidden primary max ammo bonus"			"0.65"	
 				"ragdolls become ash"					"1"	
 
