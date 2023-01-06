@@ -53,7 +53,12 @@ Gets the job done."
                 "Projectile speed increased"
 				{
 					"attribute_class"	"mult_projectile_speed"
-					"value"				"1.4"
+					"value"				"1.5"
+				}
+				"voice pitch scale"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"				"0.25" 
 				}
 			}
 		}
